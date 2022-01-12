@@ -1,6 +1,8 @@
 import {useState, createContext } from "react"
 import App1 from "./App1";
 // App -> App1 -> App2 
+// cach thong thuong thi phai truyen props tu App -> App1 -> App2
+// khi su dung useContext thi ta truyen props truc tiep tu App -> App2
 export const themeContext = createContext()
 
 const App = () => {
