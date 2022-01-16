@@ -1,0 +1,87 @@
+.form-signin{
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #eaeaea
+}
+
+.form-signin input{
+    margin-bottom: 3px;
+}
+.d-flex input{
+    width: 300px;
+    transition: width 1s;
+}
+.d-flex input:focus{
+    width: 600px; 
+}
+
+.form-signin button{
+    margin: 0 3px;
+}
+svg{
+    font-size: 30px;
+}
+
+.form_login button{
+    margin: 0 3px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover{
+    cursor: pointer;
+}
+.cart-nav{
+    position: relative;
+}
+.cart-nav_list{
+    position: absolute;
+    left: 0px;
+    z-index: 2;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+
+}
+.cart-nav_list ul{
+    text-decoration: none !important;
+    list-style: none;
+    
+}
+.cart-nav_list p{
+    font-weight: 100;
+}
+.cart-nav_list ul img{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    left: 0px;
+}
+.cart-nav_list ul li{
+    display: flex;
+    margin-left: -32px;
+}
+
+.cart-nav_list ul li sup{
+    
+    padding-right: 5px;
+}
+.cart-nav_list{
+    display: none
+}
+.cart-nav:hover .cart-nav_list{
+    display: block;
+}
+
+
+@keyframes formanimation {
+    from {
+        width: 300px !important;
+    }
+    to {
+        width: 600px !important;
+    }
+  }
