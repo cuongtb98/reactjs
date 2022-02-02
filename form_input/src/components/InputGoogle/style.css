@@ -1,0 +1,32 @@
+
+.App {
+    position: relative;
+    width: 500px;
+}
+
+input {
+    border: 1px solid #eee;
+    height: 50px;
+    transition: 0.25s ease;
+    width: calc(100% - 60px);
+    padding: 0 20px;
+}
+
+label {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    user-select: none;
+    color: #999;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+input:not(:placeholder-shown) + label,
+input:focus + label{
+    top: 0px;
+    left: 20px;
+    padding: 10px;
+    display: inline-block;
+    background-color: white;
+}
